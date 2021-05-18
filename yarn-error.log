@@ -1,0 +1,75 @@
+Arguments: 
+  D:\MySoftware\NodeJs\node.exe C:\Users\jamlin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel-plugin-import
+
+PATH: 
+  D:\MySoftware\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;D:\MySoftware\cmder_mini\vendor\conemu-maximus5;D:\MySoftware\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;D:\MySoftware\apache-maven-3.6.3\bin;D:\MySoftware\apache-tomcat-8.5.64\lib;D:\MySoftware\apache-tomcat-8.5.64\bin;C:\Program Files\Java\jdk1.8.0_281\bin;D:\MySoftware\Git\cmd;D:\MySoftware\TortoiseGit\bin;D:\MySoftware\NodeJs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jamlin\AppData\Local\Microsoft\WindowsApps;D:\MySoftware\Microsoft VS Code\bin;C:\Users\jamlin\AppData\Roaming\npm;D:\MySoftware\Git\mingw64\bin;D:\MySoftware\Git\usr\bin;D:\MySoftware\cmder_mini\vendor\bin;D:\MySoftware\cmder_mini
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+      at TLSSocket.emit (events.js:315:20)
+      at TLSSocket._finishInit (_tls_wrap.js:932:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:706:12)
+
+npm manifest: 
+  {
+    "name": "react_staging",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.10",
+      "@testing-library/react": "^11.2.6",
+      "@testing-library/user-event": "^12.8.3",
+      "antd": "^4.15.2",
+      "axios": "^0.21.1",
+      "customize-cra": "^1.0.0",
+      "prop-types": "^15.7.2",
+      "pubsub-js": "^1.9.3",
+      "react": "^17.0.2",
+      "react-app-rewired": "^2.1.8",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.3",
+      "uuid": "^8.3.2",
+      "web-vitals": "^1.1.1"
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
